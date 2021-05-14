@@ -1,0 +1,41 @@
+.App{
+  text-align: center;
+}
+nav{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: darkblue;
+  color: white;
+  box-shadow: 1px 1px 25px .5px black;
+}
+.link{
+  border: 2px solid red;
+  background-color: white;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  width: 150px;
+}
+li{
+  list-style: none;
+}
+
+/* ----------searched movie ----------- */
+.mountedMovie{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+/* ----------favorite movies-------- */
+.displayTheMovies{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
